@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_chef_bookings",
+  "info": {
+    "singularName": "user-chef-booking",
+    "pluralName": "user-chef-bookings",
+    "displayName": "user_chef_booking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "biginteger"
+    },
+    "chef_user_id": {
+      "type": "biginteger"
+    },
+    "from_date": {
+      "type": "datetime"
+    },
+    "to_date": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

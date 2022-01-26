@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_role_mappings",
+  "info": {
+    "singularName": "user-role-mapping",
+    "pluralName": "user-role-mappings",
+    "displayName": "user_role_mapping"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role_id": {
+      "type": "biginteger"
+    }
+  }
+}

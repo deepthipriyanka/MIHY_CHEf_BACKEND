@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_settings",
+  "info": {
+    "singularName": "app-setting",
+    "pluralName": "app-settings",
+    "displayName": "App-setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "App_name": {
+      "type": "text"
+    },
+    "Primary_color": {
+      "type": "text"
+    },
+    "Secondary_color": {
+      "type": "text"
+    },
+    "Banner_Url": {
+      "type": "text"
+    },
+    "Created_at": {
+      "type": "datetime"
+    },
+    "Created_by": {
+      "type": "biginteger"
+    },
+    "Update_at": {
+      "type": "biginteger"
+    },
+    "Update_by": {
+      "type": "biginteger"
+    },
+    "Is_deleted": {
+      "type": "boolean"
+    },
+    "additional_info": {
+      "type": "json"
+    }
+  }
+}

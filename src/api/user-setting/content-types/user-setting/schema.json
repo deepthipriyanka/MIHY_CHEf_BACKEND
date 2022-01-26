@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_settings",
+  "info": {
+    "singularName": "user-setting",
+    "pluralName": "user-settings",
+    "displayName": "User_setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "is_active": {
+      "type": "boolean"
+    },
+    "show_status": {
+      "type": "boolean"
+    },
+    "allowed_notifications": {
+      "type": "json"
+    },
+    "chating_allowed": {
+      "type": "boolean"
+    }
+  }
+}

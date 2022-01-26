@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_sessions",
+  "info": {
+    "singularName": "user-session",
+    "pluralName": "user-sessions",
+    "displayName": "user_session"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "auth_token": {
+      "type": "text"
+    },
+    "device_id": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_fav_chefs",
+  "info": {
+    "singularName": "user-fav-chef",
+    "pluralName": "user-fav-chefs",
+    "displayName": "user_fav_chef"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userss",
+  "info": {
+    "singularName": "users",
+    "pluralName": "userss",
+    "displayName": "users",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Full_name": {
+      "type": "text"
+    },
+    "email_id": {
+      "type": "text"
+    },
+    "mobile_number": {
+      "type": "text"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "country": {
+      "type": "biginteger"
+    },
+    "State": {
+      "type": "biginteger"
+    },
+    "City": {
+      "type": "text"
+    },
+    "Pincode": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "text"
+    },
+    "Lat": {
+      "type": "biginteger"
+    },
+    "Lang": {
+      "type": "biginteger"
+    },
+    "registration_type": {
+      "type": "text"
+    },
+    "is_email_verified": {
+      "type": "boolean"
+    },
+    "is_mobile_verified": {
+      "type": "boolean"
+    }
+  }
+}

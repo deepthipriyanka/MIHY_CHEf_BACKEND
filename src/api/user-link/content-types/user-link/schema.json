@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_links",
+  "info": {
+    "singularName": "user-link",
+    "pluralName": "user-links",
+    "displayName": "user_links",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "text"
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}
